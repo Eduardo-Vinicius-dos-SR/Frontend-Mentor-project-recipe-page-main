@@ -1,0 +1,23 @@
+@media(max-width: 768px) {
+
+    .container .menu .description {
+        font-size: 18px;
+    }
+
+    .container .menu .preparation-time h2{
+        font-size: 23px;
+        padding-bottom: 15px;
+    }
+
+    .container {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .container .menu .nutrition table tbody tr td:last-child {
+        padding-right: 30px;
+    }
+    
+}
+/* Minha tentativa em realizar o projeto recipe-page-main do Frontend Mentor */

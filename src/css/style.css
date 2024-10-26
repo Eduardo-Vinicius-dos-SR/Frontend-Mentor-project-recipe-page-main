@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: var(--Stone-100);
+}
+
+.ingredients h2,
+.instructions h2,
+.nutrition h2 {
+    font-family: "Young Serif", sans-serif;
+    font-weight: 400;
+    color: var(--Brown-800);
+    font-size: 28px;
+    padding-bottom: 18px;
+}
+
+.container div {
+    margin: 30px 0;
+}
+
+ul,
+ol {
+    list-style-position: outside;
+    padding-left: 20px;
+}
+
+ul li {
+    padding-bottom: 12px;
+    padding-left: 15px;
+}
+
+.container {
+    height: 1920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .menu {
+    max-width: 800px;
+    border-radius: 25px;
+    padding: 40px;
+    background-color: var(--White);
+}
+
+.container .menu .image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container .menu .title {
+    font-family: "Young Serif", sans-serif;
+    font-weight: 400;
+    padding-top: 28px;
+    padding-bottom: 20px;
+    font-size: 38px;
+}
+
+.container .menu .description {
+    font-size: 16px;
+}
+
+/*  */
+
+.container .menu .preparation-time {
+    background-color: var(--Rose-50);
+    border-radius: 10px;
+    padding: 25px 30px;
+}
+
+.container .menu .preparation-time h2 {
+    padding-bottom: 12px;
+    color: var(--Rose-800);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.container .menu .preparation-time ul li::marker {
+    color: var(--Rose-800);
+}
+
+/*  */
+
+.container .menu .ingredients ul li::marker {
+    color: var(--Brown-800);
+}
+
+/*  */
+
+.container .menu .instructions ol li {
+    padding-bottom: 12px;
+    padding-left: 15px;
+}
+
+.container .menu .instructions ol li::marker {
+    color: var(--Brown-800);
+    font-weight: 700;
+}
+
+/*  */
+
+.container .menu .nutrition{
+    margin-bottom: 0;
+}
+
+.container .menu .nutrition p {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.container .menu .nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.container .menu .nutrition table tbody tr {
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.container .menu .nutrition table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.container .menu .nutrition table tbody tr td {
+    padding: 13px 10px;
+}
+
+.container .menu .nutrition table tbody tr td:first-child {
+    padding-left: 35px;
+}
+
+.container .menu .nutrition table tbody tr td:last-child {
+    padding-right: 45px;
+    color: var(--Brown-800);
+    font-weight: 700;
+}
