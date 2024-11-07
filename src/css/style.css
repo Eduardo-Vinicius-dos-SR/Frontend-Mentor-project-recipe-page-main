@@ -11,12 +11,18 @@ body {
     font-family: "Young Serif", sans-serif;
     font-weight: 400;
     color: var(--Brown-800);
-    font-size: 28px;
+    font-size: 2.8rem;
     padding-bottom: 18px;
 }
 
 .container div {
     margin: 30px 0;
+}
+
+p,
+li,
+td {
+    font-size: 1.6rem;
 }
 
 ul,
@@ -31,14 +37,15 @@ ul li {
 }
 
 .container {
-    height: 1920px;
+    max-height: 1920px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px 0;
 }
 
 .container .menu {
-    max-width: 800px;
+    max-width: 750px;
     border-radius: 25px;
     padding: 40px;
     background-color: var(--White);
@@ -53,12 +60,8 @@ ul li {
     font-family: "Young Serif", sans-serif;
     font-weight: 400;
     padding-top: 28px;
-    padding-bottom: 20px;
-    font-size: 38px;
-}
-
-.container .menu .description {
-    font-size: 16px;
+    padding-bottom: 15px;
+    font-size: 3.8rem;
 }
 
 /*  */
@@ -72,7 +75,7 @@ ul li {
 .container .menu .preparation-time h2 {
     padding-bottom: 12px;
     color: var(--Rose-800);
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 700;
 }
 
@@ -100,7 +103,7 @@ ul li {
 
 /*  */
 
-.container .menu .nutrition{
+.container .menu .nutrition {
     margin-bottom: 0;
 }
 
